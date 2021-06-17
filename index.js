@@ -14,7 +14,7 @@ console.log(add(1, 1)); */
 f1("abcd");
 let f2 = f1;*/
 
-let nums = [3.14, 42, 4811];
+/*let nums = [3.14, 42, 4811];
 
 let timesTwo = function (n) {
    return n*2;
@@ -23,4 +23,12 @@ let timesTwo = function (n) {
 let doubled = nums.map(timesTwo);
 
 console.log(nums);
+console.log(doubled);*/
+
+let nums = [3.14, 42, 4811];
+
+let doubled = nums.map(function (n) {
+   return n*2;
+});
+
 console.log(doubled);
